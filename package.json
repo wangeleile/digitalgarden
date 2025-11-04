@@ -1,0 +1,19 @@
+{
+  "name": "digitalgarden",
+  "version": "1.0.0",
+  "description": "Ein Digitalgarden mit Obsidian und Quartz 4",
+  "type": "module",
+  "scripts": {
+    "build": "quartz build",
+    "preview": "quartz build --serve",
+    "serve": "quartz build --serve",
+    "sync": "obsidian-git pull"
+  },
+  "keywords": ["digitalgarden", "obsidian", "quartz"],
+  "dependencies": {
+    "quartz": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
