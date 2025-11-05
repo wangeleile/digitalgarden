@@ -1,11 +1,11 @@
 ---
-title: {{title}}
+title: <% tp.file.title %>
 tags: [template]
-date: {{date}}
+date: <% tp.date.now("YYYY-MM-DD") %>
 status: draft
 ---
 
-# {{title}}
+# <% tp.file.title %>
 
 > Eine Zusammenfassung oder Einleitung zur Notiz.
 
@@ -29,4 +29,4 @@ Weitere Unterabschnitte nach Bedarf.
 
 ---
 
-*Zuletzt aktualisiert: {{date:YYYY-MM-DD}}*
+*Zuletzt aktualisiert: <% tp.date.now("YYYY-MM-DD") %>*

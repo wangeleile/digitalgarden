@@ -11,7 +11,7 @@
   },
   "keywords": ["digitalgarden", "obsidian", "quartz"],
   "dependencies": {
-    "quartz": "^4.0.0"
+    "quartz": "file:./quartz-setup"
   },
   "devDependencies": {
     "typescript": "^5.0.0"

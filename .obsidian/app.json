@@ -1,1 +1,4 @@
-{}
+{
+  "templatesEnabled": true,
+  "templatesFolder": "templates"
+}
